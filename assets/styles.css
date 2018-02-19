@@ -1,0 +1,245 @@
+@-webkit-keyframes type {
+        0%{
+            width: 0ch;
+            border-right: 2px solid #5E548E;
+        }
+        99%{
+            border-right: 2px solid #5E548E;
+        }
+        100%{ 
+            width: 17ch;
+            border-right: none;
+        }
+
+}
+body{
+    background-image: url("img/wes2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+
+#how{
+	
+    font-family: 'Source Code Pro';
+  
+    font-size: 300%;
+    font-weight: 600;
+	-webkit-animation: type 3s steps(17);
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0px;
+    padding-left: 82px;
+    color:#5E548E;
+    text-align: left;
+
+    text-shadow: 1.5px 1.5px #FDFDFD;
+
+	
+}
+
+#howc{
+
+	width:600px;
+    position:absolute;
+    white-space:nowrap;
+    overflow: hidden;
+    right:50%;
+    transform:translate(50%,0%);
+
+}
+
+
+.butt {
+    width: 200px;
+    height: 90px;
+    border-radius: 12px;
+    transition: .3s;
+    border-width: 0px;
+    border-radius: 50px;
+    border-style: solid;
+
+}
+
+.butt:focus {
+    outline: 0;
+}
+
+#good{
+    border-color: rgba(51,153,255,.5);
+    box-shadow: 0px 0px 0px 2.5px #FDFDFD;
+    background-image: -webkit-linear-gradient(left, rgba(51,153,255,1), rgba(51,153,255,.5) 50%, transparent 50%, transparent 100%);
+    background-color: rgba(226,234,255,1);
+    font-family: 'Source Code Pro', cursive;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align:center;
+    color: #5E548E;
+
+
+   }
+
+#bad{
+    border-color: rgba(255,102,102,.5);
+    background-image: -webkit-linear-gradient(right, rgba(255,102,102,1), rgba(255,102,102,.5) 50%, transparent 50%, transparent 100%);
+    box-shadow: 0px 0px 0px 2.5px #FDFDFD;
+    background-color: rgba(255,226,226,1);
+    font-family: 'Source Code Pro', cursive;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bolder;
+    color: #5E548E;
+
+}
+
+.button:hover {
+	width: 135px;
+	height:45px;
+	transition:.3s;
+	font-size: 110%;
+}
+
+#gcon{
+    position: fixed;
+    bottom: 50%;
+    right:60%;
+    transition: .2s;
+
+}
+
+#bcon{
+    position: fixed;
+    bottom: 50%;
+    left: 60%;
+    transition: .2s;
+    
+
+
+}
+
+#gcon:hover{
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+#bcon:hover{
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+#good:active{
+    border-color: #5E548E;
+    background-image: -webkit-linear-gradient(left, rgba(38,112,185,.5), rgba(38,112,185,.5) 50%, transparent 50%, transparent 100%);
+    transform:scale(.9);
+    transition:.05s;
+    background-color: rgba(200,220,240,.7);
+
+}
+
+#bad:active{
+    border-color: #5E548E;
+    background-image: -webkit-linear-gradient(right, rgba(185,75,75,.5), rgba(185,75,75,.5) 50%, transparent 50%, transparent 100%);
+    transform:scale(.9);
+    transition:.05s;
+    background-color: rgba(225,200,200,.7);
+
+}
+
+.butt:active{
+    opacity: 50%;
+}
+#gcon:active{
+    opacity:50%;
+}
+
+#dum{
+    height:2195px;
+}
+
+#i1{
+    position: fixed;
+    top: 30%;
+    right: 33.3%;
+   
+    border-radius: 20px;
+    overflow: hidden;
+    opacity: 0;
+    transition: 2.5s;
+    border: 3px solid #FDFDFD;
+}
+
+#i2{
+    position: fixed;
+    top: 30%;
+    right: 33.3%;
+    border-radius: 20px;
+    overflow: hidden;
+    opacity: 0;
+    transition: 2.5s;
+        border: 3px solid #FDFDFD;
+
+}
+
+#pause{
+    position: fixed;
+    background:transparent;
+    right: 20%;
+    bottom: 40%;
+    width: 74px;
+    height: 74px;
+    border-style: double;
+    border-radius: 5px;
+    border-width:0px 0px 0px 50px;
+    border-color:transparent transparent transparent #5E548E;
+    transition: .2s;
+}
+
+#butts{
+    opacity: 0;
+    transition: 2s;
+}
+
+#pause:focus{
+    outline: 0;
+}
+
+#pcon{
+   
+    position: fixed;
+    background:transparent;
+    right: 19.8%;
+    bottom: 40%;
+    height:74px;
+    width: 74px;
+    border-style: double;
+    border-radius: 5px;
+    border-width:0px 0px 0px 50px;
+    border-color:transparent transparent transparent #FFFFFF;
+    trnasition: .2s;
+}
+
+#butts:hover #pause{
+    transform: scale(1.1);
+    opacity: 1;
+    transition: .2s;
+}
+
+#butts:hover #pcon{
+    transform: scale(1.1);
+    opacity: 1;
+    transition: .2s;
+}
+
+#butts:active #pause{
+    transform: scale(.9);
+    transition: .2s;
+}
+
+#butts:active #pcon{
+    transform: scale(.9);
+    transition: .2s;
+}
+
+
+
+
+
