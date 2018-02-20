@@ -19,7 +19,7 @@ function good(){
 		vid.play();
 		document.getElementById('butts').style.opacity = "1";
 		if (canPlayType()==false){
-			window.alert("You can't play this html5 video. Sad!");
+			alert("You can't play this html5 video. Sad!");
 		}
 		}, 1500);
 
